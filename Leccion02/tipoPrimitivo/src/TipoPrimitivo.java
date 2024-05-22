@@ -27,6 +27,12 @@ public class TipoPrimitivo {
         System.out.println("Valor minimo int: "+Integer.MIN_VALUE);
         System.out.println("Valor maximo int: "+Integer.MAX_VALUE);
         
+        
+        long numeroLong =10;
+        System.out.println("numeroLong = " + numeroLong);
+        System.out.println("Numero minimo LONG: "+Long.MIN_VALUE);
+        System.out.println("Numero maximo LONG: "+Long.MAX_VALUE);
+        
     }
     
 }
