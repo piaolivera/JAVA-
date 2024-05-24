@@ -20,14 +20,6 @@ public class PrecedenciaOperadores {
         resultado = (4 + 5) * 6 / 3;
         System.out.println("resultado = " + resultado);
 
-        /*
-         double Longitud = 3, Ancho = 5.5;
-        double area = Longitud * Ancho;
-        System.out.println("El area del rectangulo es: "+area);
-        
-        double Perimetro = 2 * (Longitud * Ancho);
-        System.out.println("Perimetro  del rectangulo= " + Perimetro);
-         */
         Scanner consola = new Scanner(System.in);
 
         System.out.println("Escriba el alto del rectangulo: ");
