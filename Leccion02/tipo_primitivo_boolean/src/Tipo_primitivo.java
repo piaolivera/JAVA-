@@ -38,7 +38,7 @@ public class Tipo_primitivo {
 //        System.out.println("valorPI = " + valorPI);
 //        
 //        //Pedir un valor
-        Scanner scanner = new Scanner(System.in);
+        
 //        var consola = new Scanner(System.in);
 //        System.out.println("Proporciona tu edad:");
 //        edad = Integer.parseInt(consola.nextLine() );
@@ -69,17 +69,7 @@ public class Tipo_primitivo {
 //        else{
 //            System.out.println("El envio no es gratuito");
 //        }
-        String nombre = scanner.nextLine();
-        System.out.println("Proporciona el id:");
-        int id = Integer.parseInt(scanner.nextLine());
-        System.out.println("Proporciona el precio:");
-        double precio = Double.parseDouble(scanner.nextLine());
-        System.out.println("Proporciona el envio gratuito:");
-        boolean envioGratuito = Boolean.parseBoolean(scanner.nextLine());
- 
-        System.out.println(nombre + " #" + id);
-        System.out.println("Precio: $" + precio);
-        System.out.println("Envio Gratuito: " + envioGratuito);
+       
     }
         
     }
