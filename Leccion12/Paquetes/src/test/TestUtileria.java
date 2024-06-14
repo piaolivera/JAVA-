@@ -9,6 +9,8 @@ import static ar.com.globalmentoring.Utileria.imprimir;
 public class TestUtileria {
     public static void main(String[] args) {
         //Utileria.imprimir("Saludos");
-        imprimir("Adios");
+        //imprimir("Adios");
+        
+       
     }
 }
