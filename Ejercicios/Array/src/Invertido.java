@@ -28,7 +28,7 @@ public class Invertido {
         int max = array[0];
         for (int i = 0; i < array.length; i++) {
             if(array[i]> max)
-                max = array[i];
+                max = array[i]; 
             
         }
         System.out.println("El valor maximo es :" +max);
